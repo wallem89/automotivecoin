@@ -52,8 +52,8 @@
 #define CRYPTONOTE_PROTOCOL_HOP_RELAX_COUNT             3      //value of hop, after which we use only announce of new block
 
 
-#define P2P_DEFAULT_PORT                                18080
-#define RPC_DEFAULT_PORT                                18081
+#define P2P_DEFAULT_PORT                                111879 // 1-1-1879 first car https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen
+#define RPC_DEFAULT_PORT                                591876 // 9-5-1876 first internal combustion engine https://en.wikipedia.org/wiki/Otto_engine
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
 
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
